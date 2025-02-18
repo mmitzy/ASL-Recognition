@@ -75,4 +75,24 @@ Each model’s architecture, training process, and evaluation metrics are detail
    ```bash
    git clone https://github.com/mmitzy/ASL-Recognition.git
    cd ASL-Recognition
+   ```
 
+2. **Create and Activate a Virtual Environment:**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows, use: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Results and Evaluation
+
+Each model was evaluated using metrics such as accuracy, precision, recall, and F1-score. Detailed results are documented in the notebooks and code comments, providing insights into:
+- Model strengths and weaknesses.
+- The impact of data pre-processing and augmentation.
+- Comparative performance across different classifiers.
