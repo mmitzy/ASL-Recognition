@@ -98,3 +98,27 @@ Each model was evaluated using metrics such as accuracy, precision, recall, and 
 - Model strengths and weaknesses.
 - The impact of data pre-processing and augmentation.
 - Comparative performance across different classifiers.
+
+## CNN
+![image](https://github.com/user-attachments/assets/da4072b6-e5f4-44e4-b307-e523242c6434)
+![image](https://github.com/user-attachments/assets/a2d4271f-ca7d-4135-8553-fc0e20f65567)
+
+## FFNN
+![image](https://github.com/user-attachments/assets/920a283d-58e7-4405-a0b1-218c25706d79)
+
+## Logistic Regression
+![image](https://github.com/user-attachments/assets/e116a3f4-76a1-4e1d-9741-8d665b028744)
+
+## Visualization Testing
+![image](https://github.com/user-attachments/assets/421a8e78-a55f-466a-9c3f-e60e176b05b3)
+![image](https://github.com/user-attachments/assets/e3b6972f-7302-4644-af55-a4cee9752dc9)
+![image](https://github.com/user-attachments/assets/1b77a3e8-2a64-4526-b52a-bb845cc9a15d)
+![image](https://github.com/user-attachments/assets/73b59b78-9f6b-4025-a140-afa455f43be6)
+
+
+
+
+## Conclusions
+
+After achieving the incredible accuracy of 99%, we understood that our hypothesis is probably correct. Of course 1 example isn't enough to determine such a big question, but due to the usage of a very big dataset (consisting of 84k+ images) we believe that it's very likely that we are right.
+
