@@ -34,3 +34,48 @@ The dataset consists of images depicting different ASL signs. Each image is labe
 
 ## Project Structure
 
+
+## Data Visualization
+
+Visual exploration of the dataset was an integral first step. The visualizations include:
+- **Class Distribution:** Bar charts showing the frequency of each ASL sign.
+- **Sample Images:** A gallery of sample images per category to inspect quality and variability.
+- **Correlation Analysis:** (If applicable) Plots to explore relationships between any extracted features.
+
+These visualizations help uncover potential challenges such as imbalanced classes or high intra-class variability.
+
+## Preconceptions and Reasoning
+
+Before diving into model training, several preconceptions were considered:
+- **Image Variability:** ASL gestures may vary widely in appearance due to lighting, background, and signer differences.
+- **Model Performance:** Different ML models might have varying levels of performance, especially given the complexity of image data.
+- **Feature Discrimination:** Some ASL signs are visually similar, posing a challenge for classifiers.
+
+These insights guided the exploratory data analysis (EDA) and influenced the selection and tuning of machine learning models.
+
+## Machine Learning Models
+
+Multiple approaches were experimented with:
+- **Convolutional Neural Networks (CNNs):** To leverage their strength in capturing spatial hierarchies in image data.
+- **Support Vector Machines (SVMs):** For baseline classification on feature-extracted representations.
+- **Random Forests and Ensemble Methods:** To reduce overfitting and capture complex decision boundaries.
+- **Additional Models:** Other classifiers were also considered to provide a comprehensive comparison.
+
+Each model’s architecture, training process, and evaluation metrics are detailed in the scripts under the `src/` directory.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Jupyter Notebook (for running the notebooks)
+- Required Python packages (listed in `requirements.txt`)
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/mmitzy/ASL-Recognition.git
+   cd ASL-Recognition
+
