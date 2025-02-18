@@ -14,6 +14,7 @@ and a variety of machine learning (ML) models. The goal is to explore the data t
 - [Getting Started](#getting-started)
 - [Results and Evaluation](#results-and-evaluation)
 - [Conclusions](#conclusions)
+- [Important Note](#important-note)
 
 
 ## Project Overview
@@ -121,5 +122,11 @@ Each model was evaluated using metrics such as accuracy, precision, recall, and 
 
 ## Conclusions
 
-After achieving the incredible accuracy of 99%, we understood that our hypothesis is probably correct. Of course 1 example isn't enough to determine such a big question, but due to the usage of a very big dataset (consisting of 84k+ images) we believe that it's very likely that we are right.
+After improving from the other models and achieving the incredible accuracy of 99% using CNN, we understood that our hypothesis is probably correct. Of course 1 example isn't enough to determine such a big question, but due to the usage of a very big dataset (consisting of 84k+ images) we believe that it's very likely that we are right.
+
+
+## Important Note
+
+The models are all named in the same format: 'modelname'.py
+All other files including any combination of the model name is related to the training save files.
 
