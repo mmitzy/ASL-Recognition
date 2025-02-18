@@ -12,10 +12,7 @@ This project focuses on recognizing American Sign Language (ASL) gestures using 
 - [Machine Learning Models](#machine-learning-models)
 - [Getting Started](#getting-started)
 - [Results and Evaluation](#results-and-evaluation)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Project Overview
 
