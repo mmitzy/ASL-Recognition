@@ -1,6 +1,7 @@
 # ASL Recognition Project
 
-This project focuses on recognizing American Sign Language (ASL) gestures using a custom dataset and a variety of machine learning (ML) models. The goal is to explore the data through visualization, reason through our initial preconceptions, and compare several ML approaches to determine the most effective method for ASL recognition.
+This project focuses on recognizing American Sign Language (ASL) gestures using a the ASL Alphabet dataset: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+and a variety of machine learning (ML) models. The goal is to explore the data through visualization, reason through our initial preconceptions, and compare several ML approaches to determine the most effective method for ASL recognition.
 
 ## Table of Contents
 
@@ -25,19 +26,21 @@ The project involves:
 
 ## Dataset
 
-The dataset consists of images depicting different ASL signs. Each image is labeled according to the corresponding alphabet or gesture. Detailed information about the dataset, including sample images and class distributions, can be found in the `notebooks/` folder.
-
-*Note: If the dataset is not included directly in the repository, please refer to the instructions in the `data/` folder for downloading and setting up the dataset.*
+The dataset consists of images depicting different ASL signs. Each image is labeled according to the corresponding alphabet or gesture. Detailed information about the dataset, including sample images and class distributions, can be found in the link provided above.
 
 ## Project Structure
 
+In this project I included several ML models to test my hypothesis: "By using data augmentation, deep learning and feature extracting, we can improve the issue of ASL Alphabet recognition - similar hand gestures".
+The project was devided to 3 main proccesses:
+- **Invetigation Phase:** Finding the best possible dataset, thinking of a hypothesis and planning my way of work.
+- **Coding Phase:** Writing the ML models and tuning the hyperparameters that will get the most out of the model.
+- **Conclusion Phase:** Understanding where I failed and where I found success, looking for a potential answer for the hypothesis.
 
 ## Data Visualization
 
 Visual exploration of the dataset was an integral first step. The visualizations include:
 - **Class Distribution:** Bar charts showing the frequency of each ASL sign.
 - **Sample Images:** A gallery of sample images per category to inspect quality and variability.
-- **Correlation Analysis:** (If applicable) Plots to explore relationships between any extracted features.
 
 These visualizations help uncover potential challenges such as imbalanced classes or high intra-class variability.
 
@@ -48,17 +51,16 @@ Before diving into model training, several preconceptions were considered:
 - **Model Performance:** Different ML models might have varying levels of performance, especially given the complexity of image data.
 - **Feature Discrimination:** Some ASL signs are visually similar, posing a challenge for classifiers.
 
-These insights guided the exploratory data analysis (EDA) and influenced the selection and tuning of machine learning models.
+These insights guided the exploratory data analysis and influenced the selection and tuning of machine learning models.
 
 ## Machine Learning Models
 
 Multiple approaches were experimented with:
 - **Convolutional Neural Networks (CNNs):** To leverage their strength in capturing spatial hierarchies in image data.
-- **Support Vector Machines (SVMs):** For baseline classification on feature-extracted representations.
-- **Random Forests and Ensemble Methods:** To reduce overfitting and capture complex decision boundaries.
-- **Additional Models:** Other classifiers were also considered to provide a comprehensive comparison.
+- **Feedforward Neural Network (FFNN):** To present the huge improvement when using neural networks.
+- **Logistic Regression:** To give an example of the problems we might face when using the wrong model for the task.
 
-Each model’s architecture, training process, and evaluation metrics are detailed in the scripts under the `src/` directory.
+Each model’s architecture, training process, and evaluation metrics are detailed in the scripts under the evaluation and it's own directory.
 
 ## Getting Started
 
@@ -92,7 +94,7 @@ Each model’s architecture, training process, and evaluation metrics are detail
 
 ## Results and Evaluation
 
-Each model was evaluated using metrics such as accuracy, precision, recall, and F1-score. Detailed results are documented in the notebooks and code comments, providing insights into:
+Each model was evaluated using metrics such as accuracy, precision, recall, and F1-score. Detailed results are documented in the pictures below.
 - Model strengths and weaknesses.
 - The impact of data pre-processing and augmentation.
 - Comparative performance across different classifiers.
